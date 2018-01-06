@@ -18,25 +18,23 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">InfoSwiat</a>
+      <a class="navbar-brand" href="index.jsp">InfoSwiat</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Główna</a></li>
-        <li><a href="#">Dodaj</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
-
-
-        <li><a href="#">Zaloguj</a></li>
+        <li class="active"><a href="index.jsp">Główna</a></li>
+        <li><a href="#">Dodaj</a></li>
+          <li><a href="login.jsp">Zaloguj</a></li>
+      </ul>
 
       </ul>
       <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Szukaj">
+        <div class="form-group" >
+            <input type="text" name="search" class="form-control" placeholder="Szukaj">
         </div>
-        <button type="submit" class="btn btn-default">Szukaj</button>
+        <button type="submit" class="btn btn-default ">Szukaj</button>
+
       </form>
 
     </div>

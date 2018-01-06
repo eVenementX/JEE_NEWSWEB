@@ -17,7 +17,7 @@
 </head>
 <nav class="navbar navbar-fixed-top navbar-inverse">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+
         <div class="navbar-header">
             <a class="navbar-brand" href="index.jsp">InfoSwiat</a>
         </div>
@@ -44,15 +44,15 @@
     </div>
 </nav>
 <div class="container">
-<div class="col-sm-6 col-md-4 col-md-offset-4">
-    <form class="form-signin" action="j_security_check" method="post">
-        <h2 class="form-signin-heading">Zaloguj się</h2>
-        <input type="text" name="j_username" class="form-control" placeholder="Login" required="" autofocus="">
-        <input type="password" name="j_password" class="form-control" placeholder="Hasło" required="">
-        <a href="/register.jsp">Zarejestruj się</a>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Zaloguj się</button>
-    </form>
-</div>
+    <div class="col-sm-8 col-md-6 col-md-offset-2">
+        <form class="form-signin" action="#" method="post">
+            <h2 class="form-signin-heading">Dodaj newsa</h2>
+            <input type="text" name="inputName" class="form-control" placeholder="Tytuł" required autofocus>
+            <input type="url" name="inputUrl" class="form-control" placeholder="URL" required autofocus>
+            <textarea name="inputDescription" class="form-control" placeholder="Treść newsa" required autofocus></textarea>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Dodaj</button>
+        </form>
+    </div>
 </div>
 <div class="footer"> <strong>infoSwiat developed by DA</strong></div>
 <body>
