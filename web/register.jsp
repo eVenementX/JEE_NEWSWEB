@@ -45,7 +45,7 @@
 </nav>
 <div class="container">
     <div class="col-sm-6 col-md-4 col-md-offset-4">
-        <form class="form-signin" action="#" method="post">
+        <form class="form-signin" action="register" method="post">
             <h2 class="form-signin-heading">Rejestracja</h2>
             <input type="email" name="inputEmail" class="form-control" placeholder="Adres email" required autofocus>
             <input type="text" name="inputUsername" class="form-control" placeholder="Nazwa użytkoniwka" required autofocus>
