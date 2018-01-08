@@ -49,8 +49,8 @@
         <h2 class="form-signin-heading">Zaloguj się</h2>
         <input type="text" name="j_username" class="form-control" placeholder="Login" required="" autofocus="">
         <input type="password" name="j_password" class="form-control" placeholder="Hasło" required="">
-        <a href="/register.jsp">Zarejestruj się</a>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Zaloguj się</button>
+        <a href="/register.jsp">Zarejestruj się</a>
     </form>
 </div>
 </div>
